@@ -1,0 +1,110 @@
+/* ===================================
+   CODEZYRO - PALETA DE CORES OFICIAL
+   =================================== */
+
+:root {
+    /* ─────────────────────────────────
+       CORES BASE (Fundos)
+       ───────────────────────────────── */
+    
+    --cz-black:           #0a0a0b;    /* Fundo principal */
+    --cz-black-light:     #111113;    /* Fundo secundário */
+    --cz-gray-900:        #18181b;    /* Fundo terciário */
+    --cz-gray-800:        #1c1c1f;    /* Superfícies/Cards */
+    --cz-gray-700:        #27272a;    /* Bordas */
+    --cz-gray-600:        #3f3f46;    /* Bordas claras */
+    
+    
+    /* ─────────────────────────────────
+       CORES DE TEXTO
+       ───────────────────────────────── */
+    
+    --cz-white:           #fafafa;    /* Texto principal */
+    --cz-gray-300:        #a1a1aa;    /* Texto secundário */
+    --cz-gray-400:        #71717a;    /* Texto muted/discreto */
+    
+    
+    /* ─────────────────────────────────
+       COR DE DESTAQUE (Accent)
+       ───────────────────────────────── */
+    
+    --cz-accent:          #00ff88;    /* Verde Neon - COR PRINCIPAL */
+    --cz-accent-dark:     #00cc6a;    /* Verde para fundos claros */
+    --cz-accent-dim:      rgba(0, 255, 136, 0.1);   /* Fundo com accent */
+    --cz-accent-glow:     rgba(0, 255, 136, 0.3);   /* Efeito glow */
+    
+    
+    /* ─────────────────────────────────
+       CORES SECUNDÁRIAS (Opcionais)
+       ───────────────────────────────── */
+    
+    --cz-purple:          #7c3aed;    /* Roxo tech (efeitos) */
+    --cz-blue:            #00ccff;    /* Azul (gradientes) */
+    
+    
+    /* ─────────────────────────────────
+       CORES UTILITÁRIAS
+       ───────────────────────────────── */
+    
+    --cz-success:         #27ca40;    /* Verde sucesso */
+    --cz-warning:         #ffbd2e;    /* Amarelo aviso */
+    --cz-error:           #ff5f56;    /* Vermelho erro */
+    --cz-whatsapp:        #25d366;    /* WhatsApp */
+}
+
+
+/* ===================================
+   GUIA DE USO
+   ===================================
+   
+   FUNDOS:
+   - Página principal:     var(--cz-black)
+   - Seções alternadas:    var(--cz-black-light)
+   - Cards/Modais:         var(--cz-gray-800)
+   - Inputs:               var(--cz-black)
+   
+   TEXTO:
+   - Títulos:              var(--cz-white)
+   - Parágrafos:           var(--cz-gray-300)
+   - Labels/Captions:      var(--cz-gray-400)
+   - Destaques:            var(--cz-accent)
+   
+   BORDAS:
+   - Normal:               var(--cz-gray-700)
+   - Hover:                var(--cz-gray-600)
+   - Accent:               var(--cz-accent)
+   
+   BOTÕES:
+   - Primário (fundo):     var(--cz-accent)
+   - Primário (texto):     var(--cz-black)
+   - Secundário:           transparent + borda
+   
+   =================================== */
+
+
+/* ===================================
+   VALORES HEX PARA COPIAR
+   ===================================
+   
+   #0a0a0b  - Preto (fundo)
+   #111113  - Preto claro
+   #18181b  - Cinza 900
+   #1c1c1f  - Cinza 800 (cards)
+   #27272a  - Cinza 700 (bordas)
+   #3f3f46  - Cinza 600
+   #71717a  - Cinza 400 (texto muted)
+   #a1a1aa  - Cinza 300 (texto secundário)
+   #fafafa  - Branco (texto principal)
+   
+   #00ff88  - VERDE NEON (destaque)
+   #00cc6a  - Verde escuro
+   #7c3aed  - Roxo
+   #00ccff  - Azul
+   
+   #25d366  - WhatsApp
+   #27ca40  - Sucesso
+   #ffbd2e  - Aviso
+   #ff5f56  - Erro
+   
+   =================================== */
+

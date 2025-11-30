@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Basic -->
+    <title>CodeZyro | Soluções Digitais para o Seu Negócio</title>
+    <meta name="description" content="A CodeZyro transforma problemas em soluções digitais. Desenvolvimento web, automação de processos e consultoria tech para pequenas e médias empresas.">
+    <meta name="keywords" content="desenvolvimento web, automação, soluções digitais, software house, landing page, site institucional, aplicações web, Python, JavaScript">
+    <meta name="author" content="CodeZyro">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://codezyro.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codezyro.com/">
+    <meta property="og:title" content="CodeZyro | Tecnologia que Impulsiona o Seu Negócio">
+    <meta property="og:description" content="Desenvolvimento web, automação e soluções digitais sob medida. Traduzimos complexidade em resultados para a sua empresa.">
+    <meta property="og:image" content="https://codezyro.com/imagens-codezyro/OG.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="CodeZyro">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://codezyro.com/">
+    <meta name="twitter:title" content="CodeZyro | Tecnologia que Impulsiona o Seu Negócio">
+    <meta name="twitter:description" content="Desenvolvimento web, automação e soluções digitais sob medida. Traduzimos complexidade em resultados.">
+    <meta name="twitter:image" content="https://codezyro.com/imagens-codezyro/OG.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    
+    <!-- Theme Color (cor da barra do navegador em mobile) -->
+    <meta name="theme-color" content="#0a0a0b">
+    <meta name="msapplication-TileColor" content="#0a0a0b">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>Code<span class="logo-highlight">Zyro</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <!-- Animated Grid -->
+            <div class="grid-pattern"></div>
+            <div class="grid-lines">
+                <div class="grid-line grid-line-h"></div>
+                <div class="grid-line grid-line-h"></div>
+                <div class="grid-line grid-line-v"></div>
+                <div class="grid-line grid-line-v"></div>
+            </div>
+            
+            <!-- Glowing Orbs -->
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+            <div class="glow glow-3"></div>
+            
+            <!-- Floating Code Elements -->
+            <div class="floating-code">
+                <span class="code-fragment code-1">&lt;div&gt;</span>
+                <span class="code-fragment code-2">const x = </span>
+                <span class="code-fragment code-3">{ }</span>
+                <span class="code-fragment code-4">( ) =&gt;</span>
+                <span class="code-fragment code-5">npm run</span>
+                <span class="code-fragment code-6">async</span>
+                <span class="code-fragment code-7">.then()</span>
+                <span class="code-fragment code-8">&lt;/&gt;</span>
+            </div>
+            
+            <!-- Particles -->
+            <div class="particles" id="particles"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                Disponível para novos projetos
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="line line-1">
+                    <span class="word">Tecnologia</span>
+                    <span class="word">que</span>
+                </span>
+                <span class="line line-2">
+                    <span class="word highlight-word" data-text="impulsiona">impulsiona</span>
+                </span>
+                <span class="line line-3">
+                    <span class="word">o</span>
+                    <span class="word">seu</span>
+                    <span class="word">negócio</span><span class="cursor">_</span>
+                </span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                <span class="subtitle-text">
+                    Desenvolvimento web, automação e soluções digitais sob medida. 
+                    Traduzimos complexidade em resultados.
+                </span>
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#contacto" class="btn btn-primary btn-glow">
+                    <span>Pedir Orçamento</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#servicos" class="btn btn-secondary">
+                    <span class="btn-text">Ver Serviços</span>
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat" data-target="50">
+                    <span class="stat-number"><span class="counter">0</span>+</span>
+                    <span class="stat-label">Projetos Entregues</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat" data-target="98">
+                    <span class="stat-number"><span class="counter">0</span>%</span>
+                    <span class="stat-label">Clientes Satisfeitos</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat" data-target="24">
+                    <span class="stat-number"><span class="counter">0</span>h</span>
+                    <span class="stat-label">Resposta Rápida</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <span class="section-tag">// Sobre Nós</span>
+                    <h2 class="section-title">Somos uma equipa <span class="highlight">tática</span> de tecnologia.</h2>
+                    <p class="sobre-description">
+                        A CodeZyro é a parceira tecnológica que traduz complexidade em soluções digitais simples e lucrativas para o seu negócio. Transformamos problemas operacionais e "gambiarras" em sistemas limpos e eficientes.
+                    </p>
+                    <p class="sobre-description">
+                        Não somos uma corporação lenta. Somos ágeis, modernos e focados em resultados. Digitalizamos o analógico e organizamos o caos — para que você possa focar no que realmente importa.
+                    </p>
+                    <div class="sobre-highlights">
+                        <div class="highlight-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Entregas Rápidas</span>
+                        </div>
+                        <div class="highlight-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Suporte Dedicado</span>
+                        </div>
+                        <div class="highlight-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Preços Justos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="window-title">codezyro.js</span>
+                        </div>
+                        <div class="window-body">
+                            <pre><code><span class="keyword">const</span> <span class="variable">codezyro</span> = {
+    <span class="property">missão</span>: <span class="string">"Simplificar"</span>,
+    <span class="property">foco</span>: <span class="string">"Resultados"</span>,
+    <span class="property">método</span>: <span class="string">"Ágil"</span>,
+    
+    <span class="function">transformar</span>(<span class="param">problema</span>) {
+        <span class="keyword">return</span> <span class="variable">solução</span>.<span class="function">digital</span>();
+    }
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Serviços</span>
+                <h2 class="section-title">O que <span class="highlight">fazemos</span></h2>
+                <p class="section-subtitle">Soluções digitais completas para impulsionar o seu negócio.</p>
+            </div>
+            <div class="servicos-grid">
+                <article class="servico-card">
+                    <div class="servico-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">Desenvolvimento Web</h3>
+                    <p class="servico-description">
+                        Sites institucionais, landing pages e e-commerce. Design moderno, rápido e otimizado para conversão.
+                    </p>
+                    <ul class="servico-features">
+                        <li>Sites Responsivos</li>
+                        <li>Landing Pages</li>
+                        <li>E-commerce</li>
+                        <li>SEO Otimizado</li>
+                    </ul>
+                    <a href="#contacto" class="servico-link">
+                        Saber mais
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+                <article class="servico-card featured">
+                    <div class="servico-badge">Popular</div>
+                    <div class="servico-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">Automação</h3>
+                    <p class="servico-description">
+                        Scripts Python, bots e integração de sistemas. Eliminamos tarefas repetitivas para você focar no que importa.
+                    </p>
+                    <ul class="servico-features">
+                        <li>Bots & Scripts</li>
+                        <li>Integração APIs</li>
+                        <li>Automação de Processos</li>
+                        <li>Relatórios Automáticos</li>
+                    </ul>
+                    <a href="#contacto" class="servico-link">
+                        Saber mais
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+                <article class="servico-card">
+                    <div class="servico-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                            <circle cx="12" cy="17" r="0.5" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">Consultoria Tech</h3>
+                    <p class="servico-description">
+                        Análise e resolução de problemas digitais. Ajudamos a escolher as melhores ferramentas para o seu caso.
+                    </p>
+                    <ul class="servico-features">
+                        <li>Diagnóstico Digital</li>
+                        <li>Planeamento Estratégico</li>
+                        <li>Escolha de Ferramentas</li>
+                        <li>Formação da Equipa</li>
+                    </ul>
+                    <a href="#contacto" class="servico-link">
+                        Saber mais
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processo -->
+    <section class="processo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Como Trabalhamos</span>
+                <h2 class="section-title">Processo <span class="highlight">simples</span></h2>
+                <p class="section-subtitle">Do problema à solução em 3 passos.</p>
+            </div>
+            <div class="processo-timeline">
+                <div class="processo-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Entendimento</h3>
+                        <p>Ouvimos o seu problema e identificamos a melhor solução digital. Sem jargões técnicos.</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="processo-connector"></div>
+                <div class="processo-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Desenvolvimento</h3>
+                        <p>Construímos a solução de forma ágil, com atualizações constantes sobre o progresso.</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="processo-connector"></div>
+                <div class="processo-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Entrega & Suporte</h3>
+                        <p>Entregamos o projeto e garantimos suporte contínuo para que tudo funcione perfeitamente.</p>
+                    </div>
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Portfólio</span>
+                <h2 class="section-title">Projetos <span class="highlight">recentes</span></h2>
+                <p class="section-subtitle">Alguns dos trabalhos que realizamos.</p>
+            </div>
+            <div class="portfolio-grid">
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Desenvolvimento Web</span>
+                            <h3 class="portfolio-title">Barbearia Premium</h3>
+                            <p class="portfolio-description">Site institucional com sistema de agendamento online integrado.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Automação</span>
+                            <h3 class="portfolio-title">Bot de Atendimento</h3>
+                            <p class="portfolio-description">Chatbot inteligente para WhatsApp com integração ao sistema interno.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Landing Page</span>
+                            <h3 class="portfolio-title">Escritório Jurídico</h3>
+                            <p class="portfolio-description">Landing page institucional para captação de clientes com formulário integrado.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Aplicação Web</span>
+                            <h3 class="portfolio-title">Dashboard Financeiro</h3>
+                            <p class="portfolio-description">SaaS de gestão financeira com gráficos interativos e relatórios automáticos.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-wrapper">
+                <div class="contacto-info">
+                    <span class="section-tag">// Contacto</span>
+                    <h2 class="section-title">Vamos <span class="highlight">conversar?</span></h2>
+                    <p class="contacto-description">
+                        Tem um projeto em mente? Envie-nos uma mensagem e responderemos em até 24 horas.
+                    </p>
+                    <div class="contacto-methods">
+                        <a href="https://wa.me/5511999999999" class="contact-method" target="_blank" rel="noopener">
+                            <div class="method-icon whatsapp">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                </svg>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">WhatsApp</span>
+                                <span class="method-value">Resposta Rápida</span>
+                            </div>
+                        </a>
+                        <a href="mailto:contacto@codezyro.com" class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="method-text">
+                                <span class="method-label">E-mail</span>
+                                <span class="method-value">contacto@codezyro.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contacto-form" action="https://formspree.io/f/yourformid" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="O seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Descreva o seu projeto ou necessidade..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Enviar Mensagem</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-bracket">&lt;</span>Code<span class="logo-highlight">Zyro</span><span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">Tecnologia que impulsiona o seu negócio.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Social</h4>
+                        <ul>
+                            <li>
+                                <a href="https://linkedin.com/company/codezyro" target="_blank" rel="noopener">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/codezyro" target="_blank" rel="noopener">
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/codezyro" target="_blank" rel="noopener">
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CodeZyro. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar via WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
