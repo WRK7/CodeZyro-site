@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+﻿import { useEffect, useRef } from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const CheckIcon = () => (
@@ -16,7 +16,7 @@ function CodeWindow() {
     if (!el || window.innerWidth < 768) return
 
     const lines = [
-      { html: '<span class="kw">const</span> <span class="var">codezyro</span> = {', delay: 0 },
+      { html: '<span class="kw">const</span> <span class="var">CodeZync</span> = {', delay: 0 },
       { html: '  <span class="prop">missão</span>: <span class="str">"Simplificar"</span>,', delay: 400 },
       { html: '  <span class="prop">foco</span>: <span class="str">"Resultados"</span>,', delay: 800 },
       { html: '  <span class="prop">método</span>: <span class="str">"Ágil"</span>,', delay: 1200 },
@@ -56,12 +56,12 @@ function CodeWindow() {
         <span className="dot red" />
         <span className="dot yellow" />
         <span className="dot green" />
-        <span className="window-title">codezyro.js</span>
+        <span className="window-title">CodeZync.js</span>
       </div>
       <div className="window-body">
         <pre>
           <code ref={codeRef}>
-            <span className="kw">const</span> <span className="var">codezyro</span> = {'{'}
+            <span className="kw">const</span> <span className="var">CodeZync</span> = {'{'}
             {'\n'}  <span className="prop">missão</span>: <span className="str">"Simplificar"</span>,
             {'\n'}  <span className="prop">foco</span>: <span className="str">"Resultados"</span>,
             {'\n'}  <span className="prop">método</span>: <span className="str">"Ágil"</span>,
@@ -95,7 +95,7 @@ export default function Sobre() {
               Somos uma equipe <span className="highlight">tática</span> de tecnologia.
             </h2>
             <p className="sobre-description" ref={desc1Ref}>
-              A CodeZyro é a parceira tecnológica que traduz complexidade em soluções digitais
+              A CodeZync é a parceira tecnológica que traduz complexidade em soluções digitais
               simples e lucrativas para o seu negócio. Transformamos problemas operacionais e
               "gambiarras" em sistemas limpos e eficientes.
             </p>

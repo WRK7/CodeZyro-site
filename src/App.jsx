@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Sobre from './components/Sobre'
 import Servicos from './components/Servicos'
+import Catalogos from './components/Catalogos'
 import Processo from './components/Processo'
 import Portfolio from './components/Portfolio'
 import Contacto from './components/Contacto'
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <Sobre />
         <Servicos />
+        <Catalogos />
         <Processo />
         <Portfolio />
         <Contacto />
