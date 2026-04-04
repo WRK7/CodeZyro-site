@@ -9,8 +9,9 @@ const services = [
       </svg>
     ),
     title: 'Desenvolvimento Web',
-    description: 'Sites institucionais, landing pages e e-commerce. Design moderno, rápido e otimizado para conversão.',
-    features: ['Sites Responsivos', 'Landing Pages', 'E-commerce', 'SEO Otimizado'],
+    description:
+      'Sites institucionais, landing pages e e-commerce com design moderno, carregamento rápido e estrutura otimizada para o Google.',
+    features: ['Sites Responsivos', 'Landing Pages', 'E-commerce', 'SEO Técnico'],
     featured: false,
   },
   {
@@ -22,8 +23,9 @@ const services = [
       </svg>
     ),
     title: 'Automação',
-    description: 'Scripts Python, bots e integração de sistemas. Eliminamos tarefas repetitivas para você focar no que importa.',
-    features: ['Bots & Scripts', 'Integração APIs', 'Automação de Processos', 'Relatórios Automáticos'],
+    description:
+      'Bots para WhatsApp, scripts Python e integração de sistemas. Eliminamos tarefas repetitivas para você ganhar tempo e reduzir erros.',
+    features: ['Bots para WhatsApp', 'Integração de APIs', 'Automação de Processos', 'Relatórios Automáticos'],
     featured: true,
   },
   {
@@ -35,8 +37,9 @@ const services = [
         <path d="M14 21h7v-9l-3 2-3-4-4 6-2-3-2 2" />
       </svg>
     ),
-    title: 'Sistemas Web / Dashboards',
-    description: 'Painéis administrativos, gestão de dados e sistemas internos sob medida. Saia das planilhas e tenha controle total.',
+    title: 'Sistemas Web & Dashboards',
+    description:
+      'Painéis administrativos, CRMs e sistemas internos sob medida. Saia das planilhas e tenha controle total da sua operação.',
     features: ['Dashboards Interativos', 'Gestão de Clientes (CRM)', 'Painéis Administrativos', 'Digitalização de Processos'],
     featured: false,
   },
@@ -47,14 +50,14 @@ function ServicoCard({ service, delay }) {
 
   return (
     <article className={`servico-card${service.featured ? ' featured' : ''}`} ref={ref}>
-      {service.featured && <div className="servico-badge">Popular</div>}
+      {service.featured && <div className="servico-badge">Mais Pedido</div>}
       <div className="servico-icon">{service.icon}</div>
       <h3 className="servico-title">{service.title}</h3>
       <p className="servico-description">{service.description}</p>
       <ul className="servico-features">
         {service.features.map(f => <li key={f}>{f}</li>)}
       </ul>
-      <a href="#contacto" className="servico-link">
+      <a href="#contato" className="servico-link">
         Saber mais
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M5 12h14M12 5l7 7-7 7" />

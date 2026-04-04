@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -49,10 +49,11 @@ export default function Header() {
         <nav className={`nav${menuOpen ? ' active' : ''}`} id="nav">
           <ul className="nav-list">
             {[
-              { href: '#servicos', label: 'Serviços' },
+              { href: '#servicos',  label: 'Serviços' },
               { href: '#catalogos', label: 'Catálogos' },
               { href: '#portfolio', label: 'Portfólio' },
-              { href: '#sobre', label: 'Sobre' },
+              { href: '#processo',  label: 'Como Trabalhamos' },
+              { href: '#faq',       label: 'FAQ' },
             ].map(({ href, label }) => (
               <li key={href}>
                 <a
@@ -66,9 +67,9 @@ export default function Header() {
             ))}
             <li>
               <a
-                href="#contacto"
+                href="#contato"
                 className="nav-link nav-cta"
-                onClick={e => handleNavClick(e, '#contacto')}
+                onClick={e => handleNavClick(e, '#contato')}
               >
                 Contato
               </a>

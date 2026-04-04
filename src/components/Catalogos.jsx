@@ -18,28 +18,32 @@ const categories = [
     items: [
       {
         title: 'Bot de Atendimento',
-        description: 'Atendimento automático 24/7 via WhatsApp. Responde dúvidas, coleta dados e encaminha para o time.',
+        description:
+          'Atendimento automático 24/7 via WhatsApp. Responde dúvidas, coleta dados e encaminha para o time — sem precisar de funcionário dedicado.',
         status: 'popular',
         price: 'A partir de R$ 497',
         demo: '#',
       },
       {
         title: 'Bot de Agendamento',
-        description: 'Permite que clientes agendem horários diretamente pelo WhatsApp, com confirmação e lembretes automáticos.',
+        description:
+          'Seus clientes agendam horários diretamente pelo WhatsApp, com confirmação e lembretes automáticos. Zero faltas, zero ligações desnecessárias.',
         status: 'disponível',
         price: 'A partir de R$ 697',
         demo: '#',
       },
       {
         title: 'Bot de Cobrança',
-        description: 'Envio automático de cobranças, boletos e lembretes de pagamento com régua de comunicação inteligente.',
+        description:
+          'Cobranças, boletos e lembretes de pagamento enviados automaticamente com régua de comunicação inteligente. Reduza a inadimplência sem esforço.',
         status: 'disponível',
         price: 'A partir de R$ 897',
         demo: '#',
       },
       {
         title: 'Bot de Captação',
-        description: 'Qualifica leads automaticamente via WhatsApp ou Instagram, segmenta e repassa ao comercial.',
+        description:
+          'Qualifica leads automaticamente via WhatsApp ou Instagram, segmenta por perfil e repassa ao comercial no momento certo.',
         status: 'em breve',
         price: 'Em breve',
         demo: null,
@@ -58,28 +62,32 @@ const categories = [
     items: [
       {
         title: 'LP para Barbearias',
-        description: 'Landing page moderna com portfólio de cortes, avaliações de clientes e botão de agendamento integrado.',
+        description:
+          'Landing page moderna com portfólio de cortes, avaliações de clientes e botão de agendamento integrado ao WhatsApp.',
         status: 'popular',
         price: 'A partir de R$ 897',
         demo: '#',
       },
       {
         title: 'LP para Clínicas',
-        description: 'Página institucional para clínicas e consultórios com formulário de captação e integração com WhatsApp.',
+        description:
+          'Página institucional para clínicas e consultórios com formulário de captação de pacientes e integração direta com WhatsApp.',
         status: 'disponível',
         price: 'A partir de R$ 997',
         demo: '#',
       },
       {
         title: 'LP Jurídica',
-        description: 'Landing page para advogados e escritórios jurídicos com foco em credibilidade e captação de casos.',
+        description:
+          'Landing page para advogados e escritórios jurídicos com foco em credibilidade, autoridade e captação de novos casos.',
         status: 'disponível',
         price: 'A partir de R$ 897',
         demo: '#',
       },
       {
         title: 'LP para Restaurantes',
-        description: 'Cardápio digital, galeria de fotos, mapa de localização e integração com iFood ou delivery próprio.',
+        description:
+          'Cardápio digital, galeria de fotos, localização e integração com iFood ou delivery próprio.',
         status: 'em breve',
         price: 'Em breve',
         demo: null,
@@ -99,28 +107,32 @@ const categories = [
     items: [
       {
         title: 'Dashboard Financeiro',
-        description: 'Controle de receitas, despesas, fluxo de caixa e relatórios automáticos em uma plataforma simples.',
+        description:
+          'Controle de receitas, despesas, fluxo de caixa e relatórios automáticos. Tudo em uma plataforma simples, sem precisar de contador para o dia a dia.',
         status: 'popular',
         price: 'A partir de R$ 2.997',
         demo: '#',
       },
       {
         title: 'CRM Simplificado',
-        description: 'Gerencie clientes, oportunidades e follow-ups sem complicação. Feito para times pequenos.',
+        description:
+          'Gerencie clientes, oportunidades e follow-ups sem complicação. Feito para times pequenos que precisam de agilidade, não de burocracia.',
         status: 'disponível',
         price: 'A partir de R$ 2.497',
         demo: '#',
       },
       {
         title: 'Gestor de Agendamentos',
-        description: 'Sistema completo de agendamento com painel para profissionais e portal para clientes.',
+        description:
+          'Sistema completo com painel para o profissional e portal para o cliente agendar online, 24 horas por dia.',
         status: 'disponível',
         price: 'A partir de R$ 1.997',
         demo: '#',
       },
       {
         title: 'Plataforma de Relatórios',
-        description: 'Conecta às suas fontes de dados e gera relatórios automáticos com envio por e-mail ou WhatsApp.',
+        description:
+          'Conecta às suas fontes de dados e gera relatórios automáticos com envio por e-mail ou WhatsApp no horário que você definir.',
         status: 'em breve',
         price: 'Em breve',
         demo: null,
@@ -140,28 +152,32 @@ const categories = [
     items: [
       {
         title: 'Site para PMEs',
-        description: 'Site institucional completo com múltiplas páginas, blog, SEO técnico e painel de gestão de conteúdo.',
+        description:
+          'Site institucional completo com múltiplas páginas, blog, SEO técnico e painel de gestão de conteúdo sem precisar de programador.',
         status: 'popular',
         price: 'A partir de R$ 1.497',
         demo: '#',
       },
       {
         title: 'Site para Profissionais',
-        description: 'Portfólio e site pessoal para freelancers, consultores e profissionais liberais que querem se destacar.',
+        description:
+          'Portfólio e site pessoal para freelancers, consultores e profissionais liberais que querem se destacar online e atrair clientes.',
         status: 'disponível',
         price: 'A partir de R$ 797',
         demo: '#',
       },
       {
         title: 'E-commerce',
-        description: 'Loja virtual com carrinho, pagamento integrado, gestão de estoque e painel administrativo completo.',
+        description:
+          'Loja virtual com carrinho, pagamento integrado, gestão de estoque e painel administrativo completo para vender 24h por dia.',
         status: 'disponível',
         price: 'A partir de R$ 3.497',
         demo: '#',
       },
       {
         title: 'Site para ONGs',
-        description: 'Site institucional para organizações sem fins lucrativos com área de doações e transparência financeira.',
+        description:
+          'Site institucional para organizações sem fins lucrativos com área de doações e transparência financeira.',
         status: 'em breve',
         price: 'Em breve',
         demo: null,
@@ -171,9 +187,9 @@ const categories = [
 ]
 
 const statusConfig = {
-  popular:    { label: 'Popular',    className: 'badge-popular' },
-  disponível: { label: 'Disponível', className: 'badge-disponivel' },
-  'em breve': { label: 'Em Breve',   className: 'badge-embreve' },
+  popular:    { label: 'Mais Pedido', className: 'badge-popular' },
+  disponível: { label: 'Disponível',  className: 'badge-disponivel' },
+  'em breve': { label: 'Em Breve',    className: 'badge-embreve' },
 }
 
 function CatalogCard({ item, delay }) {
@@ -201,14 +217,14 @@ function CatalogCard({ item, delay }) {
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
             <circle cx="12" cy="12" r="3" />
           </svg>
-          Ver exemplo
+          Ver demonstração
         </a>
         <a
-          href="#contacto"
+          href="#contato"
           className={`catalog-btn-cta${isComingSoon ? ' catalog-btn-disabled' : ''}`}
           onClick={isComingSoon ? e => e.preventDefault() : undefined}
         >
-          {isComingSoon ? 'Em Breve' : 'Solicitar'}
+          {isComingSoon ? 'Em Breve' : 'Solicitar agora'}
           {!isComingSoon && (
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M5 12h14M12 5l7 7-7 7" />
@@ -238,7 +254,7 @@ export default function Catalogos() {
             Produtos <span className="highlight">prontos</span> para o seu negócio
           </h2>
           <p className="section-subtitle" ref={subtitleRef}>
-            Soluções já desenvolvidas e adaptáveis. Entrega mais rápida, custo menor.
+            Soluções desenvolvidas e testadas. Entrega mais rápida, custo menor, resultado garantido.
           </p>
         </div>
 

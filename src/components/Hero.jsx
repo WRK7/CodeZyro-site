@@ -9,7 +9,7 @@ function StatCounter({ target, suffix }) {
       <span className="stat-label">
         {target === 50 && 'Projetos Entregues'}
         {target === 98 && 'Clientes Satisfeitos'}
-        {target === 24 && 'Resposta Rápida'}
+        {target === 24 && 'Tempo de Resposta'}
       </span>
     </div>
   )
@@ -84,44 +84,38 @@ export default function Hero() {
         <div className="particles" ref={particlesRef} />
       </div>
 
-      <div className="container hero-content">
+      <div className="container hero-content hero-content-wide">
         <div className="hero-badge">
           <span className="pulse" />
-          Disponível para novos projetos
+          Vagas limitadas — aceitando novos projetos em abril
         </div>
 
-        <h1 className="hero-title">
-          <span className="line line-1">
-            <span className="word">Tecnologia</span>{' '}
-            <span className="word">que</span>
-          </span>
-          <span className="line line-2">
-            <span className="word highlight-word">impulsiona</span>
-          </span>
-          <span className="line line-3">
-            <span className="word">o</span>{' '}
-            <span className="word">seu</span>{' '}
-            <span className="word">negócio</span>
+        <h1 className="hero-title hero-title-seo">
+          <span className="line line-1 hero-h1-block">
+            <span className="hero-h1-line">
+              Desenvolvimento Web, Automação e Bots para{' '}
+              <span className="highlight-word">Pequenas e Médias Empresas</span>
+            </span>
             <span className="cursor">_</span>
           </span>
         </h1>
 
         <p className="hero-subtitle">
           <span className="subtitle-text">
-            Desenvolvimento web, automação e soluções digitais sob medida.{' '}
-            Traduzimos complexidade em resultados.
+            Tecnologia que impulsiona o seu negócio. Traduzimos processos manuais em soluções digitais ágeis,
+            acessíveis e prontas para crescer.
           </span>
         </p>
 
         <div className="hero-cta">
-          <a href="#contacto" className="btn btn-primary btn-glow">
-            <span>Pedir Orçamento</span>
+          <a href="#contato" className="btn btn-primary btn-glow">
+            <span>Quero meu orçamento gratuito</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
           <a href="#servicos" className="btn btn-secondary">
-            <span>Ver Serviços</span>
+            <span>Ver Soluções</span>
           </a>
         </div>
 
